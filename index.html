@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <!-- <link rel="stylesheet" href="css/utilities.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <div class="container"> 
+        <h1 id="resultTxt">Rock - Paper - Scissor</h1>
+        <span id="test-time"></span>
+        <span id="score">Score: </span>
+        <div class="result">
+            <div class="human">
+                <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                <i id="arrow" class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+                <i id="humanResult" class="fa-solid fa-question" style="color: #ffffff;"></i>
+            </div>
+            <i id="arrow" class="fa-solid fa-right-left" style="color: #ffffff;"></i>
+            <div class="comp">
+                <span id="spanComp">
+                    <i id="compResult" class="fa-solid fa-question" style="color: #ffffff;"></i>
+                </span>     
+                <i id="arrow" class="fa-solid fa-arrow-right fa-rotate-180" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-robot" style="color: #ffffff;"></i>
+                
+            </div>
+        </div>
+        <h3>Pick your move</h3>
+        <div class="choices">
+            <i id="btn-rock" class="fa-solid fa-hand-back-fist" style="color: #ffdbac;"></i>
+            <i id="btn-paper" class="fa-solid fa-hand" style="color: #ffdbac;" ></i>
+            <i id="btn-scissor" class="fa-solid fa-hand-scissors fa-rotate-90" style="color: #ffdbac;"></i>
+        </div>
+        <div>
+            <button class="reset" id="resetBtn">Reset Score</button>
+        </div>
+    </div>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
